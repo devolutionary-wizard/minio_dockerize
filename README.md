@@ -10,21 +10,23 @@ This project sets up a MinIO server using Docker Compose.
 ## Setup
 
 1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
+
+   ```sh
+   git clone https://github.com/devolutionary-wizard/minio_dockerize
+   cd minio_dockerize
+   ```
 
 2. Create a `.env` file in the root directory and add the following environment variables:
-    ```env
-    MINIO_ROOT_USER=your-root-user
-    MINIO_ROOT_PASSWORD=your-root-password
-    ```
+
+   ```env
+   MINIO_ROOT_USER=your-root-user
+   MINIO_ROOT_PASSWORD=your-root-password
+   ```
 
 3. Start the MinIO server:
-    ```sh
-    docker-compose up -d
-    ```
+   ```sh
+   docker-compose up -d
+   ```
 
 ## Usage
 
@@ -38,5 +40,7 @@ This project sets up a MinIO server using Docker Compose.
 ## Stopping the Server
 
 To stop the MinIO server, run:
+
 ```sh
 docker-compose down
+```
